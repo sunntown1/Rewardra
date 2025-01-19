@@ -1,0 +1,19 @@
+/* Importing custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Apply Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Apply Open Sans font to the entire html */
+  html {
+    font-family: 'Open Sans', system-ui, sans-serif;
+  }
+
+  /* Apply Montserrat font to headers (h1-h6) */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+}
